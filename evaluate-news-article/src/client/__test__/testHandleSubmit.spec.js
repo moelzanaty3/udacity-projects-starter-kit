@@ -3,6 +3,5 @@
 import 'babel-polyfill'
 
 describe('Client Test', () => {
-  // TODO: add your test cases to test client
+    // TODO: add your test cases to test client
 })
-
