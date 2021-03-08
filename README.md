@@ -14,7 +14,7 @@ experience of the projects and make things easier for the students by following 
 ## Solve the project in three steps 
 
 1. Select the project you need to start with 
-  * [Evaluate a News Article with Natural Language Processing](./evaluate-news-article/README.md)
+    - [Evaluate a News Article with Natural Language Processing](./evaluate-news-article/README.md)
 2. Solve All Todos in the code 
 3. Submit your project 
 
