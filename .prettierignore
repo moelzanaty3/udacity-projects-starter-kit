@@ -1,0 +1,22 @@
+
+## Please check .eslintignore and .gitignore when changing this file
+
+## file extensions
+*.*
+dist
+!*.css
+!*.js
+!*.json
+!*.jsx
+!*.less
+!*.md
+!*.mdx
+!*.ts
+!*.tsx
+!*.yml
+
+
+## copied from .gitignore
+
+
+## shared between eslint and prettier

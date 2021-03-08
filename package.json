@@ -1,0 +1,23 @@
+{
+  "name": "udacity-projects-starter-kit",
+  "version": "1.0.0",
+  "description": "![Udacity Banner](https://d20vrrgs8k4bvw.cloudfront.net/images/open-graph/udacity.png)",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedelzanaty/udacity-projects-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammedelzanaty/udacity-projects-starter-kit/issues"
+  },
+  "homepage": "https://github.com/mohammedelzanaty/udacity-projects-starter-kit#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
