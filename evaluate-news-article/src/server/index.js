@@ -6,7 +6,7 @@ const PORT = 8081
 
 // TODO add Configuration to be able to use env variables
 
-const BASE_API_URL = 'https://api.meaningcloud.com/sentiment-2.1'
+'
 
 // TODO: Create an instance for the server
 // TODO: Configure cors to avoid cors-origin issue
@@ -17,10 +17,8 @@ app.get('/', function (req, res) {
     // res.sendFile('dist/index.html')
     res.sendFile(path.resolve('src/client/views/index.html'))
 })
-// INFO: a route that handling post request for new URL that coming from the frontend
-app.post('/add-url', async (req, res) => {
-    try {
-        /* TODO:
+// a route that handling post request for new URL that coming from the frontend
+/* TODO:
     1. GET the url from the request body
     2. Build the URL it should be something like `${BASE_API_URL}?key=${MEAN_CLOUD_API_KEY}&url=${req.body.url}&lang=en`
     3. Fetch Data from API
@@ -35,11 +33,7 @@ app.post('/add-url', async (req, res) => {
        confidence : '',
        irony : ''
      }
-  */
-    } catch (error) {
-        console.log(error.message)
-    }
-})
+*/
 
 app.get('/test', function (req, res) {
     res.send(mockAPIResponse)
