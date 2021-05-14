@@ -6,7 +6,6 @@ const PORT = 8081
 
 // TODO add Configuration to be able to use env variables
 
-'
 
 // TODO: Create an instance for the server
 // TODO: Configure cors to avoid cors-origin issue
